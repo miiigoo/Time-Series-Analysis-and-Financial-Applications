@@ -32,17 +32,6 @@ It spans traditional linear models, deep‑learning architectures, walk‑forwar
 │   ├── RNN
 │   │   ├── RNN_comparison.py
 │   │   └── RNN_sequence_search.py
-│   ├── SLP & MLP
-│   │   ├── Multi_Layer_Perceptron.py
-│   │   ├── Multi_Layer_Perceptron_alpha_test.py
-│   │   ├── Multi_Layer_Perceptron_cross_validation.py
-│   │   ├── Multi_Layer_Perceptron_epoch_no_test.py
-│   │   ├── Multi_Layer_Perceptron_hidden_layers_test.py
-│   │   ├── Multi_Layer_Perceptron_validation+early_stop.py
-│   │   ├── Single_Layer_Perceptron.py
-│   │   ├── Single_Layer_Perceptron_L.R_test.py
-│   │   ├── Single_Perceptron.py
-│   │   └── Single_Perceptron_random.py
 │   └── Walk Forward
 │       ├── LSTM_walk_forward.py
 │       ├── LSTM_walk_forward_hit_rate.py
@@ -54,6 +43,19 @@ It spans traditional linear models, deep‑learning architectures, walk‑forwar
 │   ├── MA.py
 │   ├── ARMA.py
 │   └── ARIMA.py
+│
+├── Extra Exercises
+│   └── SLP & MLP
+│       ├── Multi_Layer_Perceptron.py
+│       ├── Multi_Layer_Perceptron_alpha_test.py
+│       ├── Multi_Layer_Perceptron_cross_validation.py
+│       ├── Multi_Layer_Perceptron_epoch_no_test.py
+│       ├── Multi_Layer_Perceptron_hidden_layers_test.py
+│       ├── Multi_Layer_Perceptron_validation+early_stop.py
+│       ├── Single_Layer_Perceptron.py
+│       ├── Single_Layer_Perceptron_L.R_test.py
+│       ├── Single_Perceptron.py
+│       └── Single_Perceptron_random.py
 │
 └── Datasets
     ├── Close+open_prices
@@ -70,5 +72,5 @@ It spans traditional linear models, deep‑learning architectures, walk‑forwar
     └── MNIST
         ├── t10k-images.idx3‑ubyte
         ├── t10k-labels.idx1‑ubyte
-        ├── train-images.7z
+        ├── train-images.7z‑ubyte
         └── train-labels.idx1‑ubyte
