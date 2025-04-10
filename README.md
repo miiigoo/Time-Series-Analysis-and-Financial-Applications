@@ -86,7 +86,7 @@ It spans traditional linear models, deep‑learning architectures, walk‑forwar
 ## Quick start
 
 ```bash
-git clone https://github.com/<your‑user>/<your‑repo>.git
-cd <your‑repo>
+git clone https://github.com/miiigoo/Time-Series-Analysis-and-Financial-Applications.git
+cd Time-Series-Analysis-and-Financial-Applications
 
 # project tested with Python 3.9.0
