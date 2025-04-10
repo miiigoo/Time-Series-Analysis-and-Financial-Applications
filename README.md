@@ -70,5 +70,5 @@ It spans traditional linear models, deep‑learning architectures, walk‑forwar
     └── MNIST
         ├── t10k-images.idx3‑ubyte
         ├── t10k-labels.idx1‑ubyte
-        ├── train-images.idx3‑ubyte
+        ├── train-images.7z
         └── train-labels.idx1‑ubyte
