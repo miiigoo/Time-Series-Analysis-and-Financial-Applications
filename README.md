@@ -71,7 +71,7 @@ It spans traditional linear models, deep‑learning architectures, walk‑forwar
     └── MNIST
         ├── t10k-images.idx3‑ubyte
         ├── t10k-labels.idx1‑ubyte
-        ├── train-images.idx3‑ubyte
+        ├── train-images.7z‑ubyte
         └── train-labels.idx1‑ubyte
 ```
 ## How these folders map to the report
@@ -82,3 +82,11 @@ It spans traditional linear models, deep‑learning architectures, walk‑forwar
    * `LSTM_backtest.py` uses `S&P_01_2019_01_2024.csv` from **Closing_price_only**.  
 3. **Extra Exercises** showcases basic ML concepts (`*Perceptron*` scripts) trained on **MNIST**.  
 4. **Utils** provides helper scripts for data cleaning, confidence intervals, and plotting.
+
+## Quick start
+
+```bash
+git clone https://github.com/<your‑user>/<your‑repo>.git
+cd <your‑repo>
+
+# project tested with Python 3.9.0
