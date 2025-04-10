@@ -73,7 +73,8 @@ It spans traditional linear models, deep‑learning architectures, walk‑forwar
         ├── t10k-labels.idx1‑ubyte
         ├── train-images.idx3‑ubyte
         └── train-labels.idx1‑ubyte
-How these folders map to the report
+
+#How these folders map to the report
 Neural Networks and Linear Models underpin the testing results in Section 4 (datasets: Closing_price_only, Closing_price+volume).
 
 Trading scripts drive the testing results in Section 5:
