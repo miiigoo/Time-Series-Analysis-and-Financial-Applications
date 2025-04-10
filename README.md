@@ -33,11 +33,21 @@ It spans traditional linear models, deep‑learning architectures, walk‑forwar
 │   │   ├── RNN_comparison.py
 │   │   └── RNN_sequence_search.py
 │   ├── SLP & MLP
-│   │   ├── Multi_Layer_Perceptron*.py
-│   │   └── Single*_Perceptron*.py
+│   │   ├── Multi_Layer_Perceptron.py
+│   │   ├── Multi_Layer_Perceptron_alpha_test.py
+│   │   ├── Multi_Layer_Perceptron_cross_validation.py
+│   │   ├── Multi_Layer_Perceptron_epoch_no_test.py
+│   │   ├── Multi_Layer_Perceptron_hidden_layers_test.py
+│   │   ├── Multi_Layer_Perceptron_validation+early_stop.py
+│   │   ├── Single_Layer_Perceptron.py
+│   │   ├── Single_Layer_Perceptron_L.R_test.py
+│   │   ├── Single_Perceptron.py
+│   │   └── Single_Perceptron_random.py
 │   └── Walk Forward
-│       ├── LSTM_walk_forward*.py
-│       └── …
+│       ├── LSTM_walk_forward.py
+│       ├── LSTM_walk_forward_hit_rate.py
+│       ├── LSTM_walk_forward_periodic.py
+│       └── LSTM_walk_forward_volume.py
 │
 ├── Linear Models
 │   ├── AR.py
@@ -47,6 +57,18 @@ It spans traditional linear models, deep‑learning architectures, walk‑forwar
 │
 └── Datasets
     ├── Close+open_prices
+    │   ├── S&P_01_2019_01_2024.csv
+    │   └── S&P_03_2020_03_2025.csv
     ├── Closing_price_only
+    │   ├── EURUSD_01_2019_01_2024.csv
+    │   ├── Melb_12_1985_12_1990.csv
+    │   ├── S&P_01_2019_01_2024.csv
+    │   └── Tesla_01_2019_01_2024.csv
     ├── Closing_price+volume
+    │   ├── S&P_01_2019_01_2024_price_volume.csv
+    │   └── Tesla_01_2019_01_2024_price_volume.csv
     └── MNIST
+        ├── t10k-images.idx3‑ubyte
+        ├── t10k-labels.idx1‑ubyte
+        ├── train-images.idx3‑ubyte
+        └── train-labels.idx1‑ubyte
