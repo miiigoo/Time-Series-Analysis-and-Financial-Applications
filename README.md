@@ -45,17 +45,16 @@ It spans traditional linear models, deep‑learning architectures, walk‑forwar
 │   └── ARIMA.py
 │
 ├── Extra Exercises
-│   └── SLP & MLP
-│       ├── Multi_Layer_Perceptron.py
-│       ├── Multi_Layer_Perceptron_alpha_test.py
-│       ├── Multi_Layer_Perceptron_cross_validation.py
-│       ├── Multi_Layer_Perceptron_epoch_no_test.py
-│       ├── Multi_Layer_Perceptron_hidden_layers_test.py
-│       ├── Multi_Layer_Perceptron_validation+early_stop.py
-│       ├── Single_Layer_Perceptron.py
-│       ├── Single_Layer_Perceptron_L.R_test.py
-│       ├── Single_Perceptron.py
-│       └── Single_Perceptron_random.py
+│   ├── Multi_Layer_Perceptron.py
+│   ├── Multi_Layer_Perceptron_alpha_test.py
+│   ├── Multi_Layer_Perceptron_cross_validation.py
+│   ├── Multi_Layer_Perceptron_epoch_no_test.py
+│   ├── Multi_Layer_Perceptron_hidden_layers_test.py
+│   ├── Multi_Layer_Perceptron_validation+early_stop.py
+│   ├── Single_Layer_Perceptron.py
+│   ├── Single_Layer_Perceptron_L.R_test.py
+│   ├── Single_Perceptron.py
+│   └── Single_Perceptron_random.py
 │
 └── Datasets
     ├── Close+open_prices
@@ -72,5 +71,17 @@ It spans traditional linear models, deep‑learning architectures, walk‑forwar
     └── MNIST
         ├── t10k-images.idx3‑ubyte
         ├── t10k-labels.idx1‑ubyte
-        ├── train-images.7z‑ubyte
+        ├── train-images.idx3‑ubyte
         └── train-labels.idx1‑ubyte
+How these folders map to the report
+Neural Networks and Linear Models underpin the testing results in Section 4 (datasets: Closing_price_only, Closing_price+volume).
+
+Trading scripts drive the testing results in Section 5:
+
+ARIMA_backtest.py and ARIMA_Live.py use datasets in Close+open_prices.
+
+LSTM_backtest.py uses S&P_01_2019_01_2024.csv from Closing_price_only.
+
+Extra Exercises showcases basic ML concepts (*Perceptron* scripts) trained on MNIST.
+
+Utils provides helper scripts for data cleaning, confidence intervals, and plotting.
